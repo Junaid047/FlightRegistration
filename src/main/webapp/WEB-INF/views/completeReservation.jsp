@@ -11,7 +11,7 @@ Departure City: ${flight.departureCity}<br/>
 Arrival City: ${flight.arrivalCity}<br/>
 Airlines: ${flight.operatingAirlines}<br/>
 
-<form action="" method="post">
+<form action="completeReservation" method="post">
 <pre>
 <h3>Passenger details:</h3>
 First Name: <input type="text" name="passengerFirstName" />
